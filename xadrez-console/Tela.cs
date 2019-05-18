@@ -9,9 +9,9 @@ namespace xadrez_console
         {
             for (int i = 0; i < tab.linhas; i++)
             {
+                Console.Write(8 - i + " ");
                 for (int j = 0; j < tab.colunas; j++)
                 {
-                    Console.Write(8 - i + " ");
 
                     if (tab.peca(i,j) == null)
                     {
